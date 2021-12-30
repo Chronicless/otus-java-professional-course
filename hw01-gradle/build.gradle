@@ -1,20 +1,5 @@
-plugins {
-    id 'java'
-    id "com.github.johnrengelman.shadow" version "7.1.1"
-}
-
-version '1.0-SNAPSHOT-thin'
-
-repositories {
-    mavenCentral()
-}
-
-
 dependencies {
-
-    implementation("com.google.guava:guava:31.0.1-jre")
 }
-
 shadowJar {
     archiveBaseName.set('gradleHelloWorldThick')
     archiveVersion.set('0.11')
