@@ -1,0 +1,13 @@
+dependencies {
+}
+shadowJar {
+    archiveBaseName.set('gradleHelloWorldThick')
+    archiveVersion.set('0.11')
+    archiveClassifier.set('')
+    manifest {
+        attributes 'Main-Class': 'com.chronicless.HelloOtus'
+    }
+}
+
+
+tasks.build.dependsOn tasks.shadowJar
