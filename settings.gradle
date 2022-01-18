@@ -1,2 +1,3 @@
 rootProject.name = 'otus-java-professional-course'
 include 'hw01-gradle'
+include 'hw02-collections'
